@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 
-body {
-    background-color: black;
-    color: green;
-    font-family: 'Ubuntu Mono', monospace;
-}
-
-.container {
-    padding: 0 15px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    width: 100%;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -20,6 +7,23 @@ body {
 html {
     position: relative;
     min-height: 100%;
+}
+
+body {
+    background-color: black;
+    color: green;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+input {
+    box-sizing: border-box;
+    background-color: #001800cb;
+    border-color: green;
+    min-height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 @-ms-viewport {
@@ -46,6 +50,13 @@ html {
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.container {
+    padding: 0 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 100%;
 }
 
 .jumbotron {
