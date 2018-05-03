@@ -48,6 +48,18 @@ html {
     margin-bottom: 10px;
 }
 
+.input {
+    box-sizing: border-box;
+    background-color: #001800cb;
+    border-color: green;
+    color: green;
+    min-height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    
 .jumbotron {
     box-sizing: border-box;
     background-color: #001800cb;
